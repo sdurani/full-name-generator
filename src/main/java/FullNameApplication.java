@@ -15,6 +15,7 @@ public class FullNameApplication {
         System.out.println("Please enter your suffix, if you have one.");
         String userSuffix = read.nextLine().trim();
 
+        // full name initialized as first name.
         String userFullName = userFirstName;
 
         if (!userMiddleName.equals("")) {
